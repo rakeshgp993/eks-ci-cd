@@ -1,6 +1,7 @@
 // @Library('jenkins-shared-lib')
 library "jenkins-shared-lib@main"
 
+node {
 pipelineHelper.pipelineStart()
 
 pipelineHelper.checkout()
@@ -11,3 +12,4 @@ pipelineHelper.checkout()
  }
 
  pipelineHelper.pipelineFinish()
+}
