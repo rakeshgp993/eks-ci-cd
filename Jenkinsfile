@@ -7,3 +7,5 @@ pipelineHelper.pipelineStart()
      echo 'Hello world'
      sayHello("rakesh")
  }
+
+ pipelineHelper.pipelineFinish()
