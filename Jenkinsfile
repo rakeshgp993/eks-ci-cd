@@ -1,7 +1,7 @@
 // @Library('jenkins-shared-lib')
 library "jenkins-shared-lib@main"
 
-// pipelineHelper.pipelineStart()
+pipelineHelper.pipelineStart()
 
  stage('hello world') {
      echo 'Hello world'
